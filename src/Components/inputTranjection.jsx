@@ -21,7 +21,7 @@ setAmount("null")
 <input onChange={(e)=>setAmount(e.target.value)} value={amount} className=' border inline-block border-lime-600 outline-none rounded w-42 p-2 text-gray-200 bg-transparent' type="number" placeholder='Transection amount' />
 
 
-<button type='submit' className='bg-indigo-500 hover:bg-indigo-600 block px-4 py-2 rounded mt-2 mx-auto text-white'>Add Tranjection</button>
+<button type='submit' className='bg-indigo-500 hover:bg-indigo-600 block px-4 py-2 rounded mt-2 mx-auto text-white  hover:duration-300  hover:shadow-lg hover:shadow-blue-800'>Add Transection</button>
 </div>
     </form>
     </>
